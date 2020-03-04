@@ -1,0 +1,21 @@
+.add-todo-form {
+  background-color: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: center;
+  padding: 5px;
+  width: 150px;
+}
+
+.name-input {
+  height: 20px;
+  margin: 5px;
+  width: 100%;
+}
+
+.add-todo-btn {
+  height: 20px;
+  margin: 5px;
+  width: 100%;
+}
