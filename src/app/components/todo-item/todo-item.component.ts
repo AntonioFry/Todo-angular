@@ -24,12 +24,10 @@ export class TodoItemComponent implements OnInit {
   }
 
   onToggle(todo) {
-    console.log('hello')
     todo.completed = !todo.completed;
   }
 
   onDelete(todo) {
-    console.log('hey');
     this.deleteTodo.emit(todo);
   }
 
